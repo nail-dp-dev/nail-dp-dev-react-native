@@ -1,0 +1,123 @@
+# macOS 관련 파일
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode 관련
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcworkspace
+**/.xcode.env.local
+# Xcode logs
+*.xcactivitylog
+*.xcscheme
+
+# Android 관련
+.idea/
+.gradle/
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+# Android 빌드 결과물
+android/app/build/
+android/build/
+
+# Node.js 및 JavaScript 관련
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.swp
+*.swo
+*.swn
+
+# Fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/
+**/fastlane/test_output/
+
+# 번들 아티팩트
+*.jsbundle
+*.map
+
+# Ruby / CocoaPods
+**/Pods/
+vendor/bundle/
+
+# Metro 관련 (React Native의 파일 감시기)
+.metro-health-check*
+/.cache/
+
+# 테스트 및 커버리지
+/coverage/
+*.lcov
+jest/
+
+# 에디터 및 IDE 관련
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+*.idea/
+*.iml
+
+# 로그 파일
+*.log
+*.turbopack-log
+
+# OS 임시 파일
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+
+# 환경 변수 파일
+.env
+.env.*
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Expo 관련 (React Native 프로젝트에서 사용 시)
+/.expo/*
+/.expo-shared/*
+
+# 빌드 결과물
+*.apk
+*.aab
+*.dSYM
+*.so
+*.dll
+*.dylib
+
+# 기타
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+__MACOSX/
+*.tmp
